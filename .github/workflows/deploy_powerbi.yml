@@ -10,7 +10,6 @@ on:
     branches:
       - main
 
-
 jobs:
   deploy:
     runs-on: windows-latest
@@ -22,7 +21,7 @@ jobs:
       - name: Set up PowerShell
         uses: actions/setup-powershell@v2
         with:
-          pwsh-version: '7.2.x'  # Ensure compatibility with your script
+          pwsh-version: '7.2.x'  # Specify the desired PowerShell version
 
       - name: Deploy Power BI from Test to Production
         shell: pwsh
