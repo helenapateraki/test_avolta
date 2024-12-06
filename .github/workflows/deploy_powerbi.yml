@@ -6,10 +6,10 @@ name: Deploy Power BI from Test to Production
 on:
   push:
     branches:
-      - users/epa/test_develop
+      - main
   pull_request:
     branches:
-      - users/epa/test_develop
+      - main
 
 jobs:
   deploy:
