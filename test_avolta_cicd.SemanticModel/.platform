@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "test_avolta_cicd"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "eca02db4-1a3f-4c8a-b083-c85906f8bdef"
+  }
+}

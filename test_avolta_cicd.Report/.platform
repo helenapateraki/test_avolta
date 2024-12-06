@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "test_avolta_cicd"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7e297fd9-1574-49c1-8d25-14b6cfd861fa"
+  }
+}
