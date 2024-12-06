@@ -21,7 +21,7 @@ jobs:
       - name: Set up PowerShell
         uses: actions/setup-powershell@v2
         with:
-          pwsh-version: '7.2.x'  # Specify the desired PowerShell version
+          pwsh-version: '7.2.6'  # Specify the desired PowerShell version
 
       - name: Deploy Power BI from Test to Production
         shell: pwsh
