@@ -2,14 +2,13 @@
 
 name: Deploy Power BI from Test to Production
 
-# Trigger the workflow on push or pull request to the specified branch
 on:
   push:
     branches:
-      - main
+      - users/epa/test_develop
   pull_request:
     branches:
-      - main
+      - users/epa/test_develop
 
 jobs:
   deploy:
